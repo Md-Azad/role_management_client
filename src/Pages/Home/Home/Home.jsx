@@ -1,11 +1,12 @@
 import Navbar from "../Navbar/Navbar";
+import Post from "../Post/Post";
 
 
 const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <h1>Here will be home elements</h1>
+            <Post></Post>
         </div>
     );
 };
